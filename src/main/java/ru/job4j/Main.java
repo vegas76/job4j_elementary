@@ -1,7 +1,8 @@
-package ru.job4j;
+package ru.job4j; //заголовок всегда начинается package
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world");
+// тело кода  -связано с файлом Maim.java
+public class Main { // тело класса Main состоящее из методов (операторов)
+    public static void main(String[] args) { // метод main
+        System.out.println("Hello world"); // неделимый оператор
     }
 }
