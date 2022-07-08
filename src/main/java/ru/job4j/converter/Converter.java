@@ -10,8 +10,6 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-       // float euro = Converter.rubleToEuro(140);
-       // float usd = Converter.rubleToDollar(140);
         float ineuro = 140;
         float expectedineuro  = 2;
         float outineuro = Converter.rubleToEuro(ineuro);
@@ -22,7 +20,6 @@ public class Converter {
         boolean passedinusd = expectedineusd == outinusd;
         System.out.println("140 rubles are 2. Test result : " + passedineuro);
         System.out.println("120 rubles are 2. Test result : " + passedinusd);
-        //System.out.println("140 rubles are " + euro + " euro.");
-        //System.out.println("140 rubles are " + usd + " usd.");
+
     }
 }
